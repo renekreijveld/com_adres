@@ -15,7 +15,7 @@ Handmatig:
 * Klik op installeren.
 
 Automatisch:
-* Download bestand com_adres-1.0.0-installer.zip en installer die via de Joomla installer.
+* Download bestand **com_adres-1.0.0-installer.zip** en installer die via de Joomla installer.
 
 # Gebruik
 
