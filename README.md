@@ -8,10 +8,10 @@ Met deze code kun je in een (RSFormPro) formulier gebruik maken van een adresloo
 # Installatie instructies
 
 Handmatig:
-* Download handmatig de code naar /<jouw-joomla-website>/tmp/com_adres.
+* Download handmatig de code naar /pad-naar-jouw-joomla-website/tmp/com_adres.
 * Ga in Joomla naar Extensies > Beheren > Installeren.
 * Kies voor installeren vanuit map.
-* Vul als installatiemap in /<jouw-joomla-website>/tmp/com_adres.
+* Vul als installatiemap in /pad-naar-jouw-joomla-website/tmp/com_adres.
 * Klik op installeren.
 
 Automatisch:
