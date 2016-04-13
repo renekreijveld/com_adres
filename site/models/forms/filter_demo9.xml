@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="filter">
+        <field
+        	name="search"
+        	type="text"
+        	hint="COM_ADRES_SEARCH_FILTER_SUBMIT"
+			label="COM_USERS_FILTER_SEARCH_DESC"
+			class="js-stools-search-string"
+		/>
+        <field
+        	name="postcode"
+        	type="text"
+			label="COM_ADRES_ADRESSEN_POSTCODE"
+			size="7"
+			maxlength="7"
+			hint="COM_ADRES_ADRESSEN_POSTCODE"
+		/>
+		<field
+			name="radius"
+			type="list"
+			default="10"
+			label="COM_ADRES_ADRESSEN_RADIUS">
+			<option value="">COM_ADRES_ADRESSEN_RADIUS_SELECT</option>
+			<option value="5">5 km</option>
+			<option value="10">10 km</option>
+			<option value="25">25 km</option>
+			<option value="50">50 km</option>
+		</field>
+    </fields>
+</form>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_adres</name>
+    <creationDate>2016-04-13</creationDate>
+    <copyright>Copyright Rene Kreijveld (C) 2016. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Rene Kreijveld</author>
+    <authorEmail>email@renekreijveld.nl</authorEmail>
+    <authorUrl>http://www.renekreijveld.nl</authorUrl>
+    <version>CVS: 1.0.0</version>
+    <description></description>
+
+    <scriptfile>script.php</scriptfile>
+
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> <!-- Runs on update -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
+        </sql>
+    </update>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>adres.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <media destination="com_adres" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="languages/site">
+		<language tag="nl-NL">nl-NL/nl-NL.com_adres.ini</language>
+    </languages>
+    <administration>
+        <menu img="media/com_adres/images/s_com_adres.png" >COM_ADRES</menu>
+        <submenu>
+			<menu link="option=com_adres&amp;view=adressen" view="adressen" img="media/com_adres/images/s_adressen.png" alt="Adres/Adressen">COM_ADRES_TITLE_ADRESSEN</menu>
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>adres.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+			<language tag="nl-NL">nl-NL/nl-NL.com_adres.ini</language>
+			<language tag="nl-NL">nl-NL/nl-NL.com_adres.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
