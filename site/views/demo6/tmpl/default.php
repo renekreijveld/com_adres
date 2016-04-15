@@ -16,7 +16,7 @@ JHtml::_('formbehavior.chosen', 'select');
 
 // Google Maps Javascript API laden
 $document = JFactory::getDocument();
-$document->addScript('https://maps.google.com/maps/api/js?v=3');
+$document->addScript('https://maps.google.com/maps/api/js?language=nl');
 
 $listOrder = $this->state->get('list.ordering');
 $listDirn = $this->state->get('list.direction');
