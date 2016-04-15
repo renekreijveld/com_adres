@@ -13,9 +13,8 @@ Handmatig:
 * Klik op installeren.
 
 Automatisch:
-* Ga de Joomla backend naar Extensies > Beheren > Installeren.
-* Kies voor installeren vanaf URL.
-* Vul bij Installeren URL in: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.0-installer.zip
+* Download de installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.0-installer.zip
+* Installeer dit via de normale manier in de Joomla backend.
 
 # Gebruik
 * Ga in de Joomla backend naar Componenten > Adressen.
