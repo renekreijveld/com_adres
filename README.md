@@ -13,10 +13,11 @@ Handmatig:
 * Klik op installeren.
 
 Automatisch:
-* Download bestand **com_adres-1.0.0-installer.zip** en installer die via de Joomla installer.
+* Ga de Joomla backend naar Extensies > Beheren > Installeren.
+* Kies voor installeren vanaf URL.
+* Vul bij Installeren URL in: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.0-installer.zip
 
 # Gebruik
-
 * Ga in de Joomla backend naar Componenten > Adressen.
 * Voeg één of meer adressen toe.
 * Maak een nieuwe menu-knop aan,
