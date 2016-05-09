@@ -43,7 +43,8 @@
         <folder>css</folder>
     </media>
     <languages folder="languages/site">
-		<language tag="nl-NL">nl-NL/nl-NL.com_adres.ini</language>
+        <language tag="nl-NL">nl-NL/nl-NL.com_adres.ini</language>
+		<language tag="en-GB">en-GB/en-GB.com_adres.ini</language>
     </languages>
     <administration>
         <menu img="media/com_adres/images/s_com_adres.png" >COM_ADRES</menu>
@@ -67,6 +68,8 @@
         <languages folder="languages/administrator">
 			<language tag="nl-NL">nl-NL/nl-NL.com_adres.ini</language>
 			<language tag="nl-NL">nl-NL/nl-NL.com_adres.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_adres.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_adres.sys.ini</language>
         </languages>
     </administration>
     <config>
