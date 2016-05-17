@@ -2,6 +2,7 @@ COM_ADRES
 =========
 
 Demo component behorend bij de presentatie "Google Maps in Joomla Extensies", Joomladagen 2016.
+
 Demo component that goes with the presentation "Using Google Maps inJoomla Extensies", JandBeyond 2016.
 
 # Installatie instructies
