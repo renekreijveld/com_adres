@@ -1,7 +1,8 @@
 COM_ADRES
 =========
 
-Demo component behorend bij de presentatie "Google Maps in Joomla Extensies", Joomladagen 2016 en JandBeyond 2016.
+Demo component behorend bij de presentatie "Google Maps in Joomla Extensies", Joomladagen 2016.
+Demo component that goes with the presentation "Using Google Maps inJoomla Extensies", JandBeyond 2016.
 
 # Installatie instructies
 
@@ -13,7 +14,7 @@ Handmatig:
 * Klik op installeren.
 
 Automatisch:
-* Download de installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.0-installer.zip
+* Download de installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.1-installer.zip
 * Installeer dit via de normale manier in de Joomla backend.
 
 # Gebruik
@@ -23,3 +24,24 @@ Automatisch:
 * Kies als Menu-itemtype Adressen,
 * Kies vervolgens één van de opties.
 * Bekijk je adressen via de frontend.
+
+# Installation instructions
+
+Manual:
+* Manually download the code to  /path-to-your-joomla-website/tmp/com_adres.
+* Login into the backend and go to Extensions > Manage > Install.
+* Choose Install from folder.
+* Enter as Install folder: /path-to-your-joomla-website/tmp/com_adres.
+* CLick Install.
+
+Automatic:
+* Download the installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.1-installer.zip
+* Install the extension in the normal way.
+
+# Usage
+* Login in the Joomla backend and go to Components > Addresses.
+* Add one or more addresses.
+* Create a new menu item.
+* Choose as menu type Addresses.
+* Choose one of the options.
+* View your addresses on the frontend.
