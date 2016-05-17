@@ -16,9 +16,9 @@ JHtml::_('formbehavior.chosen', 'select');
 
 // Google Maps Javascript API laden
 $document = JFactory::getDocument();
-$document->addScript('https://maps.google.com/maps/api/js?language=nl');
+$document->addScript('https://maps.google.com/maps/api/js');
 // Google Maps Clustering library laden
-$document->addScript('//google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js');
+$document->addScript('/components/com_adres/assets/js/markerclusterer_compiled.js');
 
 $listOrder = $this->state->get('list.ordering');
 $listDirn = $this->state->get('list.direction');
