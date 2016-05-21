@@ -16,7 +16,7 @@ JHtml::_('formbehavior.chosen', 'select');
 
 // Google Maps Javascript API laden
 $document = JFactory::getDocument();
-$document->addScript('https://maps.google.com/maps/api/js?language=nl');
+$document->addScript('https://maps.google.com/maps/api/js');
 
 $listOrder = $this->state->get('list.ordering');
 $listDirn = $this->state->get('list.direction');
@@ -37,7 +37,7 @@ $listDirn = $this->state->get('list.direction');
         map = new google.maps.Map(mapId,mapOptions);
         var image = '/media/com_adres/marker.png';
         <?php foreach ($this->items as $i => $item) : ?>
-        <?php if ($item->lat > 0 AND $item->lon > 0) : ?>
+        <?php if (!empty($item->lat) AND !empty($item->lon)) : ?>
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(<?php echo $item->lat.",".$item->lon;?>),
             map: map,
