@@ -15,7 +15,7 @@ Handmatig:
 * Klik op installeren.
 
 Automatisch:
-* Download de installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.1-installer.zip
+* Download de installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.2-installer.zip
 * Installeer dit via de normale manier in de Joomla backend.
 
 # Gebruik
@@ -36,7 +36,7 @@ Manual:
 * CLick Install.
 
 Automatic:
-* Download the installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.1-installer.zip
+* Download the installer: https://github.com/renekreijveld/com_adres/raw/master/com_adres-1.0.2-installer.zip
 * Install the extension in the normal way.
 
 # Usage
